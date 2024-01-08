@@ -1,8 +1,8 @@
 * {}
 
 .header-banner {
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    background-image: url("./Banner\ Image.png");
+
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("./Banner\ Image.png");
 
     width: 1320px;
     height: 600px;
@@ -102,7 +102,7 @@
 
     position: relative;
     margin-bottom: 128px;
-    margin-top:120px;
+    margin-top: 120px;
 }
 
 .welcome-content {
@@ -164,15 +164,17 @@
     width: 1320px;
     height: 482px;
     flex-shrink: 0;
-    margin: 120px;
-    background-color: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    /* margin: 120px; */
+    margin-left: 90px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    ;
     justify-content: center;
     display: flex;
     align-items: center;
     text-align: center;
-    margin-right:450px;
+    margin-right: 450px;
     border-radius: 16px;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 
 }
 
@@ -210,4 +212,92 @@
     text-transform: uppercase;
     margin-top: 48px;
     margin-bottom: 110px;
+}
+
+
+/* comming sooon section style  */
+.coming-soon-container {
+    display: flex;
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    background-color: aqua;
+    /* text-align: left; */
+    justify-content: space-between;
+}
+
+.coming-soon-text h3 {
+    color: #F00;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.coming-soon-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.coming-soon-text p {
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.coming-soon-photo img {
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
+    border-radius: 364.844px;
+    background-image: lightgray -91.279px 0px / 150.038% 100%;
+
+    /* border: 5px solid red;
+    padding: 5px; */
+}
+
+.coming-soon-photo {
+    width: 463px;
+    height: 463px;
+    flex-shrink: 0;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+.coming-soon-date h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.coming-soon-date p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 276px;
+    /* 160% */
+}
+
+.coming-soon-date img {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
 }
