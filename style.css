@@ -317,10 +317,6 @@
     margin-bottom: 48px;
 }
 
-/* holiday section style  */
-/* .holiday{
-    margin-bottom: 400px;
-} */
 
 .holiday-container {
 
@@ -329,7 +325,7 @@
     /* background-color: aliceblue; */
     margin: 120px auto 0;
     text-align: center;
-  
+
 }
 
 .holiday-content h4 {
@@ -389,12 +385,12 @@
 }
 
 .holiday-images {
-    
+
     justify-content: space-between;
-    
+
     background-repeat: no-repeat;
-   
-    
+
+
 }
 
 
@@ -406,14 +402,14 @@
     margin-left: 170px;
 }
 
-.discount-photo{
+.discount-photo {
     position: relative;
-   
+
 }
 
 .discount-image {
     position: absolute;
-    
+
     right: 5;
     margin-left: 750px;
     margin-top: 70px;
@@ -424,20 +420,220 @@
     background-image: url("./Rectangle\ 2.png");
     /* width: 1320px;
     height: 229px; */
-    background-position: bottom ;
+    background-position: bottom;
     background-repeat: no-repeat;
-    
+
 }
-.background-color{
-    display:flex;
+
+.background-color {
+    display: flex;
     justify-content: space-between;
 }
 
 
 /* product section  */
+.content h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 
-.products{
-    display: grid;
-    grid-columns: 3;
-    
+}
+
+.content h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 16px;
+
+}
+
+.content p {
+    width: 869px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+
+}
+
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 120px;
+
+}
+
+.products-first {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+    margin-top: 48px;
+}
+
+.products-second {
+    display: flex;
+    gap: 24px;
+    /* margin-top: 12px; */
+}
+
+.product {
+    width: 424px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 16px;
+
+}
+
+/* subscribe section style  */
+
+.subscriber-container {
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 120px auto 0;
+
+    position: relative;
+
+
+}
+
+.all-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.subscriber-content img {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    /* margin:20px 0 0 40px; */
+    position: absolute;
+    left: 350px;
+    bottom: 280px;
+}
+
+.subscriber-content h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.subscriber-content p {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.form .email {
+    width: 638px;
+    height: 66px;
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+
+}
+
+.form .subscribe {
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: -20px;
+    border: none;
+}
+
+/* footer section style  */
+footer {
+    background-color: #070211;
+    height: 609px;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.footer-container {
+    width: 1320px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-content .location{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    width: 375px;
+    height: 80px;
+}
+
+.footer-phone, .footer-web{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+
+   
+}
+.phone{
+    display: flex;
+}
+.web{
+    display: flex;
+}
+
+hr{
+    color: white;
 }
