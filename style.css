@@ -587,7 +587,7 @@
 /* footer section style  */
 footer {
     background-color: #070211;
-    height: 609px;
+    height: 100%;
     width: 100%;
     margin-top: 120px;
 }
@@ -603,10 +603,10 @@ footer {
 .footer-content {
     display: flex;
     justify-content: space-between;
-
+    margin-bottom: 50px;
 }
 
-.footer-content .location{
+.footer-content .location {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -617,7 +617,8 @@ footer {
     height: 80px;
 }
 
-.footer-phone, .footer-web{
+.footer-phone,
+.footer-web {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -625,15 +626,77 @@ footer {
     font-weight: 500;
     line-height: 40px;
 
-   
+
 }
-.phone{
-    display: flex;
-}
-.web{
+
+.phone {
     display: flex;
 }
 
-hr{
+.web {
+    display: flex;
+}
+
+hr {
     color: white;
+}
+
+.phone p,
+.web p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+
+.phone p {
+    margin-bottom: 0;
+}
+
+.web p {
+    margin-top: 0;
+}
+
+
+.phone .icon {
+    width: 24px;
+    height: 24px;
+    margin-top: 33px;
+    margin-right: 16px;
+
+}
+
+.web .icon {
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+    margin-right: 16px;
+}
+
+.footer-icon {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-copyright p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 50px;
+    margin-bottom: -40px;
 }
