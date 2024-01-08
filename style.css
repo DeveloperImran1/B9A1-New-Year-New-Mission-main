@@ -93,7 +93,7 @@
 /* wellcome section style  */
 .welcome-background {
     display: flex;
-    background-image: url("Vectorrr.png");
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("Vectorrr.png");
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
@@ -103,6 +103,7 @@
     position: relative;
     margin-bottom: 128px;
     margin-top: 120px;
+    border-radius: 16px;
 }
 
 .welcome-content {
@@ -221,9 +222,14 @@
     width: 1320px;
     height: 482px;
     margin: 0 auto;
-    background-color: aqua;
+    /* background-color: aqua; */
     /* text-align: left; */
     justify-content: space-between;
+    border-radius: 16px;
+}
+
+.coming-soon-text {
+    margin-top: 98px;
 }
 
 .coming-soon-text h3 {
@@ -234,6 +240,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+
 }
 
 .coming-soon-text h1 {
@@ -244,6 +251,7 @@
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
+    margin-top: 16px;
 }
 
 .coming-soon-text p {
@@ -254,6 +262,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    margin-top: 22px;
     /* 160% */
 }
 
@@ -263,17 +272,22 @@
     flex-shrink: 0;
     border-radius: 364.844px;
     background-image: lightgray -91.279px 0px / 150.038% 100%;
-
+    margin: 49px;
     /* border: 5px solid red;
     padding: 5px; */
 }
 
 .coming-soon-photo {
     width: 463px;
-    height: 463px;
+    height: 453px;
     flex-shrink: 0;
     border-radius: 463px;
     border: 15px solid #F00;
+    margin-right: 70px;
+}
+
+.coming-soon-date {
+    margin-top: 90px;
 }
 
 .coming-soon-date h1 {
@@ -293,11 +307,137 @@
     font-weight: 400;
     line-height: 32px;
     width: 276px;
-    /* 160% */
+    margin-top: 16px;
 }
 
 .coming-soon-date img {
     width: 140px;
     height: 140px;
     flex-shrink: 0;
+    margin-bottom: 48px;
+}
+
+/* holiday section style  */
+/* .holiday{
+    margin-bottom: 400px;
+} */
+
+.holiday-container {
+
+    width: 1320px;
+    height: 958px;
+    /* background-color: aliceblue; */
+    margin: 120px auto 0;
+    text-align: center;
+  
+}
+
+.holiday-content h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 16px;
+}
+
+.holiday-content h1 span {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+
+}
+
+.holiday-content h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 28px;
+}
+
+.holiday-content p {
+    width: 868px;
+
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 64px;
+    margin-left: 226px;
+
+}
+
+.holiday-images {
+    
+    justify-content: space-between;
+    
+    background-repeat: no-repeat;
+   
+    
+}
+
+
+.holiday-images .holiday-discount {
+    width: 206.841px;
+    height: 206.841px;
+    flex-shrink: 0;
+    margin-top: 80px;
+    margin-left: 170px;
+}
+
+.discount-photo{
+    position: relative;
+   
+}
+
+.discount-image {
+    position: absolute;
+    
+    right: 5;
+    margin-left: 750px;
+    margin-top: 70px;
+
+}
+
+.holiday-images .background-color {
+    background-image: url("./Rectangle\ 2.png");
+    /* width: 1320px;
+    height: 229px; */
+    background-position: bottom ;
+    background-repeat: no-repeat;
+    
+}
+.background-color{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+/* product section  */
+
+.products{
+    display: grid;
+    grid-columns: 3;
+    
 }
